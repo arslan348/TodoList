@@ -1,0 +1,14 @@
+    @tailwind base;
+    /* .label-floating input:not(:placeholder-shown) {
+        padding-top: 2rem;
+    }
+     */
+    
+    .label-floating input:not(:placeholder-shown)~label {
+        font-size: 0.8rem;
+        transition: all 0.2s ease-in-out;
+        color: #000;
+    }
+    
+    @tailwind components;
+    @tailwind utilities;
